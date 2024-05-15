@@ -16,4 +16,4 @@ spec:
               number: 80
 
 
-curl --resolve "argocd-demo.example.com:80:$( minikube ip )" -i http://argocd-demo.example.com
+# curl --resolve "argocd-demo.example.com:80:$( minikube ip )" -i http://argocd-demo.example.com
