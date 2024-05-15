@@ -16,7 +16,7 @@ spec:
     spec:
       containers:
       - name: argocd-demo-container
-        image: adamsipolab/argocd-demo:1.0.0
+        image: adamsipolab/argocd-demo:1.0.1
         ports:
         - containerPort: 8888
         resources:
