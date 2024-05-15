@@ -14,3 +14,6 @@ spec:
             name: argocd-demo-service
             port:
               number: 80
+
+
+curl --resolve "argocd-demo.example.com:80:$( minikube ip )" -i http://argocd-demo.example.com
