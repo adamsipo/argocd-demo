@@ -1,0 +1,15 @@
+apiVersion: v1
+kind: ConfigMap
+metadata:
+  name: example-configmap
+  namespace: default
+data:
+  # Property-like keys; each key maps to a simple value
+  database_url: "https://example.com/database"
+  database_name: "exampledb"
+  # File-like keys
+  config.json: |
+    {
+      "timeout": "120",
+      "level": "debug"
+    }
